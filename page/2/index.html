@@ -1,254 +1,1150 @@
 <!DOCTYPE html>
-<html lang=zh>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head>
-    <!-- so meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.4.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.4.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '6.4.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
 <meta property="og:title" content="黖黖的博客">
 <meta property="og:url" content="https://www.iaomg.com/page/2/index.html">
 <meta property="og:site_name" content="黖黖的博客">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="黖黖的博客">
-    
-    
-        
-          
-              <link rel="shortcut icon" href="/images/favicon.ico">
-          
-        
-        
-          
-            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
-          
-        
-        
-          
-            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-          
-        
-    
-    <!-- title -->
-    <title>黖黖的博客</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="/css/style.css">
-    <!-- persian styles -->
-    
-      <link rel="stylesheet" href="/css/rtl.css">
-    
-    <!-- rss -->
-    
-    
+
+
+
+
+
+
+  <link rel="canonical" href="https://www.iaomg.com/page/2/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>黖黖的博客</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
 </head>
 
-<body class="max-width mx-auto px3 ltr">
-    
-    <div class="content index my4">
-        
-          <header id="header">
-  <a href="/">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
   
     
-      <div id="logo" style="background-image: url(/images/logo.png);"></div>
-    
   
-    <div id="title">
-      <h1>黖黖的博客</h1>
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">黖黖的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
     </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#"><i class="fas fa-bars fa-2x"></i></a>
-      </li>
-       
-        <li><a href="/">首页</a></li>
-       
-        <li><a href="/archives/">归档</a></li>
-       
-        <li><a href="/about/">关于</a></li>
+    
+      
+        <p class="site-subtitle">给时间以味道，给生命以色彩</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+
+      
       
     </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.iaomg.com/2017/09/24/2017-9-24/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="黖黖">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="黖黖的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/09/24/2017-9-24/" itemprop="url">
+                  Aria2下载工具配置
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-09-24 15:08:37" itemprop="dateCreated datePublished" datetime="2017-09-24T15:08:37+08:00">2017-09-24</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-08-20 15:36:26" itemprop="dateModified" datetime="2018-08-20T15:36:26+08:00">2018-08-20</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/新站/" itemprop="url" rel="index"><span itemprop="name">新站</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Windows配置如下"><a href="#Windows配置如下" class="headerlink" title="Windows配置如下"></a>Windows配置如下</h2><h3 id="一、主程序网站：aria2-github-io"><a href="#一、主程序网站：aria2-github-io" class="headerlink" title="一、主程序网站：aria2.github.io"></a>一、主程序网站：<a href="https://aria2.github.io/" target="_blank" rel="noopener">aria2.github.io</a></h3><ol>
+<li><p>下载最新版本 <u>version 1.32.0</u>. </p>
+</li>
+<li><p>我选择64位版本的：<u>aria2-1.32.0-win-64bit-build1.zip</u></p>
+</li>
+<li><p>下载后解压，可将此文件夹位置放置任意位置</p>
+</li>
+<li><p>我将程序放在E盘，并更改文件夹名字为Aria2</p>
+</li>
+<li><p>进入Aria2文件夹，新建三个文件</p>
+<blockquote>
+<p><strong>aria2.conf</strong><br><strong>aria2.session</strong><br><strong>Start.vbs</strong></p>
+<ul>
+<li>Aria2.conf的配置内容可参<a href="http://aria2c.com/usage.html" target="_blank" rel="noopener">这里</a></li>
+</ul>
+</blockquote>
+<ul>
+<li><p>aria2.session 不用修改</p>
+</li>
+<li><p>Start.vbs配置内容为:</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CreateObject(&quot;WScript.Shell&quot;).Run &quot;aria2c.exe --conf-path=aria2.conf&quot;,0</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将Start.vbs新建快捷方式，将快捷方式放入如下文件夹中，可实现开机启动</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\用户名\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</span><br></pre></td></tr></table></figure>
+<h3 id="二、Web-UI搭建"><a href="#二、Web-UI搭建" class="headerlink" title="二、Web UI搭建"></a>二、Web UI搭建</h3><ol start="7">
+<li>可直接用现成的网站如：<a href="http://aria2c.com/" target="_blank" rel="noopener">aria2c.com</a>等等</li>
+<li>或者本地自己搭建一个。我用的是<a href="http://ariang.mayswind.net/zh_Hans/" target="_blank" rel="noopener">AiraNG</a></li>
+<li>需要个网页服务器可用Nginx，或者用Windows自带IIS。</li>
+<li>我开始用的Nginx，后来改用IIS</li>
+</ol>
+<h3 id="三、进阶升级"><a href="#三、进阶升级" class="headerlink" title="三、进阶升级"></a>三、进阶升级</h3><p>可将百度网盘，迅雷离线等导出用Aria2下载。参考网址：<a href="https://yalv.me/aria2/" target="_blank" rel="noopener">https://yalv.me/aria2/</a></p>
+<h3 id="四、效果如如下："><a href="#四、效果如如下：" class="headerlink" title="四、效果如如下："></a>四、效果如如下：</h3><p><img src="https://s26.postimg.cc/qsjv0kpa1/image.png" alt="image.png"></p>
+<h3 id="五、用了几天的感想"><a href="#五、用了几天的感想" class="headerlink" title="五、用了几天的感想"></a>五、用了几天的感想</h3><p>下载的软件就那么几款。</p>
+<p>不喜欢迅雷的臃肿，IDM与uTorrent 是个好东西配合使用也是蛮不错的，当然百度网盘也有好的地方。所以常用百度网盘下载东西会多些，可要下载到本地用客户端也是不给力的，网速一只提不上来（除了下载大文件有P2P加速的时候）有时候只有可怜的几K网速。也许开了会员速度更快一些，可我偏不开，我用Aira2也蛮好的。<br>当然没有完美的只有适合的</p>
+<p>Aira2也有一些问题：比如，</p>
+<p>有时候会抽风似的满速下载，但多数还是慢悠悠的下载。<br>还有有时候下载到百分之90多的时候会提示错误不再下载了，需要手动恢复。<br>还有一点，错误或者不想下载的文件，网页上操作可以停止删除下载任务，却删除不了硬盘上的缓存文件，需要手动删除。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
-</header>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.iaomg.com/2017/08/25/2017-8-25/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="黖黖">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="黖黖的博客">
+    </span>
+
+    
+      <header class="post-header">
 
         
-        <section id="about">
-  
-  
-    <p>
-      Find me on
-      
-      
-      
         
-          <a class="icon" target="_blank" href="https://github.com/JiaoIng">
-            <i class="fab fa-github"></i><!--
-      ---></a><!--
-    ---><!--
-    --->, 
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/08/25/2017-8-25/" itemprop="url">
+                  2017-8-25
+                </a>
+              
+            
+          </h1>
         
-      
-        
-          <a class="icon" target="_blank" href="https://twitter.com/JiaoIng">
-            <i class="fab fa-twitter"></i><!--
-      ---></a><!--
-    ---><!--
-    ---> and 
-        
-      
-        
-          <a class="icon" target="_blank" href="/jaomig@outlook.com">
-            <i class="fas fa-envelope"></i><!--
-      ---></a><!--
-      ---><!--
-    --->.
-        
-      
-    </p>
-  
-</section>
 
-<section id="writing">
-  <span class="h1"><a href="/archives">文章</a></span>
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-08-25 14:44:41" itemprop="dateCreated datePublished" datetime="2017-08-25T14:44:41+08:00">2017-08-25</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-08-20 15:24:13" itemprop="dateModified" datetime="2018-08-20T15:24:13+08:00">2018-08-20</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/新站/" itemprop="url" rel="index"><span itemprop="name">新站</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="作为一个学习，思考，记录的微型博客"><a href="#作为一个学习，思考，记录的微型博客" class="headerlink" title="作为一个学习，思考，记录的微型博客"></a>作为一个学习，思考，记录的微型博客</h3>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
   
-  <span class="h2">Topics</span>
-  <span class="widget tagcloud">
-    <a href="/tags/Aria2/" style="font-size: 10px;">Aria2</a> <a href="/tags/html/" style="font-size: 10px;">html</a> <a href="/tags/个人/" style="font-size: 20px;">个人</a> <a href="/tags/关于/" style="font-size: 16.67px;">关于</a> <a href="/tags/换模板/" style="font-size: 10px;">换模板</a> <a href="/tags/测试/" style="font-size: 13.33px;">测试</a>
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.iaomg.com/2017/08/22/2017-08-22/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="黖黖">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="黖黖的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/08/22/2017-08-22/" itemprop="url">
+                  代码测试
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-08-22 13:59:36" itemprop="dateCreated datePublished" datetime="2017-08-22T13:59:36+08:00">2017-08-22</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-08-20 15:27:20" itemprop="dateModified" datetime="2018-08-20T15:27:20+08:00">2018-08-20</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/新站/" itemprop="url" rel="index"><span itemprop="name">新站</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong>更炫的主页</strong><a href="http://www.iaomg.com/index/.">请点这里</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://www.iaomg.com/index/</span><br></pre></td></tr></table></figure>
+<p><a href="https://postimg.cc/image/xvrqg7xad/" target="_blank" rel="noopener"><img src="https://s26.postimg.cc/qsjv0lrux/image.gif" alt="演示"></a></p>
+<p>参考地址：</p>
+<blockquote>
+<p><a href="https://agoninemo.github.io/blog/2017/07/29/blog%E9%A6%96%E7%95%8C%E9%9D%A2%E5%AE%9E%E7%8E%B0/#more" target="_blank" rel="noopener">blog首界面实现</a></p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/16/">16</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">黖黖</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">47</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
   </span>
-  <span class="h2">Most recent</span>
+  <span class="author" itemprop="copyrightHolder">黖黖</span>
+
   
-  <ul class="post-list">
-    
-      
-    
-    
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2018-08-15T06:15:34.000Z" itemprop="datePublished">2018-08-15</time>
-    </div>
 
-
-        <span>
-    
-        <a class="" href="/2018/08/15/2018-8-15/">2018-8-15</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2017-09-24T07:08:37.000Z" itemprop="datePublished">2017-09-24</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2017/09/24/2017-9-24/">Aria2下载工具配置</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2017-08-25T06:44:41.000Z" itemprop="datePublished">2017-08-25</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2017/08/25/2017-8-25/">2017-8-25</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2017-08-22T05:59:36.000Z" itemprop="datePublished">2017-08-22</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2017/08/22/2017-08-22/">代码测试</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2017-07-31T10:49:00.000Z" itemprop="datePublished">2017-07-31</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2017/07/31/2017-07-31/">让Dropbox同步任意文件夹</a>
-    
-
-
-</span>
-      </li>
-    
-  </ul>
   
-</section>
+</div>
 
 
 
-    </div>
-    
-    <footer id="footer">
-  <div class="footer-left">
-    Copyright &copy; 2018 黖黖
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-          <li><a href="/">首页</a></li>
-         
-          <li><a href="/archives/">归档</a></li>
-         
-          <li><a href="/about/">关于</a></li>
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.7.1</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Pisces</a> v6.4.0</div>
+
+
+
+
         
-      </ul>
-    </nav>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
   </div>
-</footer>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.4.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.4.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.4.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.4.0"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.4.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 </body>
 </html>
-<!-- styles -->
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
-
-<!-- jquery -->
-<script src="/lib/jquery/jquery.min.js"></script>
-<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
-<script src="/js/main.js"></script>
-<!-- search -->
-
-<!-- Google Analytics -->
-
-<!-- Baidu Analytics -->
-
-<!-- Disqus Comments -->
-
-
